@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background: #ff5839;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    margin: 5px auto;
+}
+
+.title {
+    text-align: center;
+    margin: 20px auto auto auto;
+}
+
+button {
+    border-radius: 25px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 15px;
+    transition-duration: 2s;
+    outline: none;
+}
+button:hover {
+    border-radius: 25px;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #000000;
+    padding: 15px;
+    transition-duration: 2s;
+}
